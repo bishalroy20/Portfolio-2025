@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishal Roy | project</title>
+
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ---Font Awesome cdn link--- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Awesome for brands -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css"
+      integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ---Tailwind css cdn link--- -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- ---DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+</head>
+<body>
+    
+
+
+    <!-- navbar section -->
+    <header class="bg-gradient-to-r  from-purple-700 via-pink-500 to-red-500 px-4 sm:px-8 lg:px-20 py-4 text-white">
+  <nav>
+    <div class="flex flex-col lg:flex-row justify-between  items-center gap-6">
+      
+      <!-- Logo and Navigation -->
+      <div class="flex flex-col sm:flex-row items-center gap-4">
+        <h2 class="text-3xl font-extrabold animate-fade-in tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 via-white to-cyan-300">
+          Bishal Roy
+        </h2>
+        <ul class="flex flex-col sm:flex-row items-center gap-4 text-white/80">
+          <li class="hover:text-white transition">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="hover:text-white transition">
+            <a href="./projects.html">Projects</a>
+          </li>
+          <li class="hover:text-white transition">
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="hover:text-white transition">
+            <a href="#blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="flex items-center gap-6">
+        <a href="https://www.linkedin.com/in/bishal-roy-9aa81137b" target="_blank" class="hover:text-yellow-300 transition">
+          <i class="fa-brands fa-linkedin-in text-xl"></i>
+        </a>
+        <a href="https://github.com/bishalroy20" target="_blank" class="hover:text-yellow-300 transition">
+          <i class="fa-brands fa-github text-xl"></i>
+        </a>
+        <a href="#" class="px-4 py-2 border border-white rounded hover:bg-white hover:text-white transition">
+          Portfolio
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+
+<!-- frontend project list -->
+<section class="bg-gray-900 text-white py-12 px-6 sm:px-12 lg:px-20">
+  <div class="text-center mb-10">
+    <h2 class="text-3xl font-bold text-amber-400">My Projects</h2>
+    <p class="text-gray-400 mt-2">Explore some of the work I've done in frontend and backend development.</p>
+  </div>
+
+  <!-- Frontend Projects -->
+  <div class="mb-12">
+  <h3 class="text-2xl font-semibold text-cyan-400 mb-6">Frontend Projects</h3>
+  <div class=" gap-8">
+    
+    <!-- Project Card 1: Customer Support App -->
+    <div
+      class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-5 shadow-sm rounded-lg bg-black"
+    >
+      <!-- Image Section -->
+      <figure class="md:w-1/2 w-full">
+        <img
+          src="./assets/customer.png"
+          alt="Customer Support App project image"
+          class="w-full rounded-lg object-cover"
+        />
+      </figure>
+
+      <!-- Text Section -->
+      <div class="md:w-1/2 w-full text-white">
+        <h2 class="text-xl md:text-2xl font-bold mb-2 flex items-center gap-2">
+          Customer Support App
+          <span class="badge badge-secondary">LIVE</span>
+        </h2>
+        <p class="text-gray-200 text-sm md:text-base mb-4">
+          A responsive web app built to streamline customer support interactions.
+          It provides a clean interface for managing queries and ensures smooth
+          communication between users and support teams.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="badge badge-outline">React</span>
+          <span class="badge badge-outline">Tailwind CSS</span>
+          <span class="badge badge-outline">HTML</span>
+        </div>
+        <div class="mt-4">
+          <a
+            href="https://customer-sz.netlify.app/"
+            target="_blank"
+            class="text-cyan-400 hover:underline text-sm md:text-base"
+          >
+            🔗 Live Project
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 2: HeroApp -->
+    <div
+      class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-5 shadow-sm rounded-lg bg-black"
+    >
+      <!-- Image Section -->
+      <figure class="md:w-1/2 w-full">
+        <img
+          src="./assets/hero.png"
+          alt="HeroApp project image"
+          class="w-full rounded-lg object-cover"
+        />
+      </figure>
+
+      <!-- Text Section -->
+      <div class="md:w-1/2 w-full text-white">
+        <h2 class="text-xl md:text-2xl font-bold mb-2 flex items-center gap-2">
+          HeroApp
+          <span class="badge badge-secondary">LIVE</span>
+        </h2>
+        <p class="text-gray-200 text-sm md:text-base mb-4">
+          The HeroApp component serves as the centerpiece of the homepage,
+          introducing users to the app ecosystem with a bold, engaging layout.
+          It highlights key features, metrics, and calls to action while
+          delivering a responsive and visually appealing experience.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="badge badge-outline">React</span>
+          <span class="badge badge-outline">Tailwind CSS</span>
+          <span class="badge badge-outline">HTML</span>
+        </div>
+        <div class="mt-4">
+          <a
+            href="https://hero-app-2025.netlify.app/"
+            target="_blank"
+            class="text-cyan-400 hover:underline text-sm md:text-base"
+          >
+            🔗 Live Project
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Project Card 3: Green Earth -->
+    <div
+      class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-5 shadow-sm rounded-lg bg-black"
+    >
+      <!-- Image Section -->
+      <figure class="md:w-1/2 w-full">
+        <img
+          src="./assets/green.png"
+          alt="green earth project image"
+          class="w-full rounded-lg object-cover"
+        />
+      </figure>
+
+      <!-- Text Section -->
+      <div class="md:w-1/2 w-full text-white">
+        <h2 class="text-xl md:text-2xl font-bold mb-2 flex items-center gap-2">
+          Green Earth
+          <span class="badge badge-secondary">LIVE</span>
+        </h2>
+        <p class="text-gray-200 text-sm md:text-base mb-4">
+          
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="badge badge-outline">React</span>
+          <span class="badge badge-outline">Tailwind CSS</span>
+          <span class="badge badge-outline">HTML</span>
+        </div>
+        <div class="mt-4">
+          <a
+            href="https://green-earth-2025.netlify.app/"
+            target="_blank"
+            class="text-cyan-400 hover:underline text-sm md:text-base"
+          >
+            🔗 Live Project
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more frontend projects here -->
+    <div
+      class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-5 shadow-sm rounded-lg bg-black"
+    >
+      <!-- Image Section -->
+      <figure class="md:w-1/2 w-full">
+        <img
+          src="./assets/hotline.png"
+          alt="HeroApp project image"
+          class="w-full rounded-lg object-cover"
+        />
+      </figure>
+
+      <!-- Text Section -->
+      <div class="md:w-1/2 w-full text-white">
+        <h2 class="text-xl md:text-2xl font-bold mb-2 flex items-center gap-2">
+          Emergency Hotline
+          <span class="badge badge-secondary">LIVE</span>
+        </h2>
+        <p class="text-gray-200 text-sm md:text-base mb-4">
+          
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="badge badge-outline">React</span>
+          <span class="badge badge-outline">Tailwind CSS</span>
+          <span class="badge badge-outline">HTML</span>
+        </div>
+        <div class="mt-4">
+          <a
+            href="https://bishalroy20.github.io/Assignment-5/"
+            target="_blank"
+            class="text-cyan-400 hover:underline text-sm md:text-base"
+          >
+            🔗 Live Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Backend Projects -->
+  <div class="mb-12">
+  <h3 class="text-2xl font-semibold text-purple-400 mb-6">Backend Projects</h3>
+  <div class=" gap-8">
+    <!-- card 1 --><div
+        class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-[20px] shadow-sm  rounded-lg bg-black"
+        >
+          <!-- Image Section -->
+          <figure class="md:w-1/2 w-full">
+            <img
+              src="./assets/blood.png"
+              alt="Blood Donation App project image"
+              class="w-full rounded-lg"
+            />
+          </figure>
+
+          <!-- Text Section -->
+          <div class="md:w-1/2 w-full text-white">
+            <h2 class="text-2xl font-bold mb-2 flex items-center gap-2">
+              Blood Donation App
+              <span class="badge badge-secondary">LIVE</span>
+            </h2>
+            <p class="text-gray-200 mb-4">
+              The Blood Donation Application is a user-friendly platform designed to
+              connect donors with patients in need. It ensures a seamless and efficient
+              donation process, promotes community-driven support, and helps save lives
+              by making blood donation accessible and organized.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge badge-outline">React</span>
+              <span class="badge badge-outline">Express.js</span>
+              <span class="badge badge-outline">MongoDB</span>
+              <span class="badge badge-outline">Firebase Auth</span>
+              <span class="badge badge-outline">Tailwind CSS</span>
+            </div>
+            <div class="mt-4">
+              <a
+                href="https://blooddonate200.netlify.app/"
+                target="_blank"
+                class="text-cyan-400 hover:underline"
+              >
+                🔗 Live Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- card 2 -->
+         <div
+        class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-[20px] shadow-sm  rounded-lg bg-black"
+        >
+          <!-- Image Section -->
+          <figure class="md:w-1/2 w-full">
+            <img
+              src="./assets/movie.png"
+              alt="Blood Donation App project image"
+              class="w-full rounded-lg"
+            />
+          </figure>
+
+          <!-- Text Section -->
+          <div class="md:w-1/2 w-full text-white">
+            <h2 class="text-2xl font-bold mb-2 flex items-center gap-2">
+              Movie Master Pro App
+              <span class="badge badge-secondary">LIVE</span>
+            </h2>
+            <p class="text-gray-200 mb-4">
+              A comprehensive movie management system where users can browse, manage, and organize their favorite movies with advanced filtering and personal collections.<br/>
+
+              Browse Movies
+              View movie cards with poster, title, genre, release year, director, cast, rating, and description.
+              Click on a movie to see full details.
+              Filter Movies .
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge badge-outline">React</span>
+              <span class="badge badge-outline">Express.js</span>
+              <span class="badge badge-outline">MongoDB</span>
+              <span class="badge badge-outline">Firebase Auth</span>
+              <span class="badge badge-outline">Tailwind CSS</span>
+            </div>
+            <div class="mt-4">
+              <a
+                href="https://moviemasterpro20.netlify.app/"
+                target="_blank"
+                class="text-cyan-400 hover:underline"
+              >
+                🔗 Live Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+          <div
+        class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-[20px] shadow-sm  rounded-lg bg-black"
+        >
+          <!-- Image Section -->
+          <figure class="md:w-1/2 w-full">
+            <img
+              src="./assets/toy.png"
+              alt="Blood Donation App project image"
+              class="w-full rounded-lg"
+            />
+          </figure>
+
+          <!-- Text Section -->
+          <div class="md:w-1/2 w-full text-white">
+            <h2 class="text-2xl font-bold mb-2 flex items-center gap-2">
+              Toy Shop 
+              <span class="badge badge-secondary">New</span>
+            </h2>
+            <p class="text-gray-200 mb-4">
+              Discover a world where imagination meets innovation. From cuddly companions to STEM-powered play, ToyTopia brings joy to every age.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="badge badge-outline">React</span>
+              <span class="badge badge-outline">Firebase Auth</span>
+              <span class="badge badge-outline">Tailwind CSS</span>
+            </div>
+            <div class="mt-4">
+              <a
+                href="https://toytopia20.netlify.app/"
+                target="_blank"
+                class="text-cyan-400 hover:underline"
+              >
+                🔗 Live Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+          <!-- card 4 -->
+          <div
+            class="flex flex-col md:flex-row items-center gap-6 border-2 border-gray-700 p-[20px] shadow-sm  rounded-lg bg-black"
+          >
+            <!-- Image Section -->
+            <figure class="md:w-1/2 w-full">
+              <img
+                src="./assets/Screenshot 2025-09-10 221738.png"
+                alt="Sports Hub project image"
+                class="w-full rounded-lg"
+              />
+            </figure>
+
+            <!-- Text Section -->
+            <div class="md:w-1/2 w-full text-white">
+              <h2 class="text-2xl font-bold mb-2 flex items-center gap-2">
+                Sports Accessories Website
+                <span class="badge badge-secondary">NEW</span>
+              </h2>
+              <p class="text-gray-200 mb-4">
+                From high-performance gear to everyday fitness essentials, we
+                bring you top-quality accessories for football, cricket, gym,
+                cycling, and more. Whether you're a seasoned athlete or just
+                starting your fitness journey, our collection is designed to
+                elevate your game. Shop with confidence, train with passion, and
+                play like a pro — only at Sports Hub.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-outline">Django</span>
+                <span class="badge badge-outline">HTML</span>
+                <span class="badge badge-outline">Tailwind CSS</span>
+                <span class="badge badge-outline">JavaScript</span>
+                <span class="badge badge-outline">SQLite</span>
+                <span class="badge badge-outline">Sslcommerz</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 5 -->
+          
+        </div>
+
+  </div>
+</div>
+
+</section>
+
+
+</body>
+</html>

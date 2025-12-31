@@ -16,3 +16,9 @@
     }).then(message => alert("Message sent successfully!"));
   });
 
+
+
+// type writer effect
+
+
+  
